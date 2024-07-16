@@ -84,6 +84,18 @@
           class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
+          {% #This is where we render the video section %}
+          {%  for block in section.blocks %}
+            <div class="product_compare_banner_video_section gottago_page_video_thumb_block">        
+            <div class="product_compare_banner_video_container">          
+                  <div class="banner_video_container">
+                      <video autoplay="autoplay" loop="" preload="metadata" muted="" crossorigin="" playsinline="" poster="http://honz1.myshopify.com/cdn/shop/files/single-walled-cardboard-box-8.5-x-7-x-4-pack-of-25-166-p.jpg?v=1720854266&width=990" id="player">
+                          <source data-src="{{ block.settings.video }}" type="video/mp4">
+                      </video>
+                    </div>
+                  </div>
+                </div>
+          {% endfor %}
 
           {%- for block in section.blocks -%}
             {%- case block.type -%}
@@ -460,7 +472,6 @@
                   assign share_url = product.selected_variant.url | default: product.url | prepend: request.origin
                   render 'share-button', block: block, share_link: share_url
                 %}
-
               {%- when 'variant_picker' -%}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
               {%- when 'buy_buttons' -%}
@@ -760,6 +771,23 @@
           "label": "t:sections.main-product.blocks.text.settings.text_style.label"
         }
       ]
+    },
+    //ToneWoodAmp Custom Video Section
+    {
+    "type": "video",
+    "name": "video",
+    "settings": [{
+        "type": "video_url",
+        "id": "video_url",
+        "label": "Video URL from Youtube",
+        "accept": ["youtube", "vimeo"],
+      },
+      {
+        "type": "video",
+        "id": "video",
+        "label": "Video File (For Preview)"
+      }
+  ]
     },
     {
       "type": "title",
