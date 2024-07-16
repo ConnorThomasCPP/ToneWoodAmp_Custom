@@ -84,23 +84,25 @@
           class="product__info-container{% if section.settings.enable_sticky_info %} product__column-sticky{% endif %}"
         >
           {%- assign product_form_id = 'product-form-' | append: section.id -%}
-          {% #This is where we render the video section %}
-          {%  for block in section.blocks %}
-            <div class="product_compare_banner_video_section gottago_page_video_thumb_block">        
-            <div class="product_compare_banner_video_container">          
-                  <div class="banner_video_container">
-                      <video autoplay="autoplay" loop="" preload="metadata" muted="" crossorigin="" playsinline="" poster="http://honz1.myshopify.com/cdn/shop/files/single-walled-cardboard-box-8.5-x-7-x-4-pack-of-25-166-p.jpg?v=1720854266&width=990" id="player">
-                          <source data-src="{{ block.settings.video }}" type="video/mp4">
-                      </video>
-                    </div>
-                  </div>
-                </div>
-          {% endfor %}
+
+
 
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% render block %}
+                {% #This is where we render the video section %}
+              {%- when 'video' -%}
+                <div class="product_compare_banner_video_section gottago_page_video_thumb_block">        
+                <div class="product_compare_banner_video_container">          
+                      <div class="banner_video_container">
+                          <video autoplay="autoplay" loop="" preload="metadata" muted="" crossorigin="" playsinline="" poster="http://honz1.myshopify.com/cdn/shop/files/single-walled-cardboard-box-8.5-x-7-x-4-pack-of-25-166-p.jpg?v=1720854266&width=990" id="player">
+                              <source data-src="{{ block.settings.video }}" type="video/mp4">
+                          </video>
+                        </div>
+                      </div>
+                    </div>
+                  
               {%- when 'text' -%}
                 <p
                   class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
