@@ -9,40 +9,102 @@
 */
 {
   "sections": {
-    "image_banner_chJ4gP": {
-      "type": "image-banner",
+    "ss_video_banner_3_rWnd4i": {
+      "type": "ss-video-banner-3",
       "blocks": {
-        "heading_XPHbRL": {
+        "heading_QRxEgE": {
           "type": "heading",
           "settings": {
-            "heading": "{{ article.title }}",
-            "heading_size": "h1"
+            "heading": "<h2>{{ article.title }}<\/h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 40,
+            "heading_size_mobile": 28,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_align": "left",
+            "heading_align_mobile": "left",
+            "heading_color": "#FFFFFF"
           }
         },
-        "text_Rj8K3B": {
+        "text_eAr7wn": {
           "type": "text",
           "settings": {
-            "text": "<em><strong>\"The Greatest Guitar Gadget Since The Capo\"<\/strong><\/em>",
-            "text_style": "body"
+            "text": "<p><em><strong>Artist's Q<\/strong><\/em><\/p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 20,
+            "text_size_mobile": 18,
+            "text_height": 130,
+            "text_mt": 16,
+            "text_mt_mobile": 16,
+            "text_align": "left",
+            "text_align_mobile": "left",
+            "text_color": "#FFFFFF"
+          }
+        },
+        "video_mRdamM": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=7QhRD5UT2o8",
+            "loop": true,
+            "controls": true,
+            "video_mt": 32,
+            "video_mt_mobile": 32,
+            "toggle_align": "left",
+            "toggle_align_mobile": "left",
+            "icon_size": 44,
+            "icon_size_mobile": 44,
+            "toggle_text": "WATCH FILM",
+            "toggle_text_custom": false,
+            "toggle_text_font": "josefin_sans_n4",
+            "toggle_text_size": 12,
+            "toggle_text_size_mobile": 12,
+            "toggle_text_height": 150,
+            "toggle_icon_color": "#FFFFFF",
+            "toggle_text_color": "#FFFFFF"
           }
         }
       },
       "block_order": [
-        "heading_XPHbRL",
-        "text_Rj8K3B"
+        "heading_QRxEgE",
+        "text_eAr7wn",
+        "video_mRdamM"
       ],
       "settings": {
-        "image": "{{ article.image }}",
-        "image_overlay_opacity": 70,
-        "image_height": "small",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "banner_height": "fixed_height",
+        "banner_fixed_height": 650,
+        "banner_fixed_height_mobile": 500,
+        "banner_radius": 0,
+        "overlay": 0,
+        "content_maxwidth": 60,
+        "content_horizontal_position": "start",
+        "content_vertical_position": "center",
+        "content_vertical_position_mobile": "end",
+        "modal_width": 70,
+        "modal_radius": 0,
+        "modal_border_thickness": 0,
+        "modal_overlay": 80,
+        "modal_overlay_color": "#FFFFFF",
+        "modal_border_color": "#000000",
+        "close_color": "#000000",
+        "overlay_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 140,
+        "border_thickness": 0,
+        "lazy": true
       }
     },
     "rich_text_UNyUeA": {
@@ -184,7 +246,7 @@
     }
   },
   "order": [
-    "image_banner_chJ4gP",
+    "ss_video_banner_3_rWnd4i",
     "rich_text_UNyUeA",
     "ss_feature_1_tAq84U",
     "main",
