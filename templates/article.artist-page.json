@@ -25,7 +25,7 @@
             "heading_mt_mobile": 0,
             "heading_align": "left",
             "heading_align_mobile": "left",
-            "heading_color": "#FFFFFF"
+            "heading_color": "#ffffff"
           }
         },
         "text_eAr7wn": {
@@ -41,7 +41,7 @@
             "text_mt_mobile": 16,
             "text_align": "left",
             "text_align_mobile": "left",
-            "text_color": "#FFFFFF"
+            "text_color": "#ffffff"
           }
         },
         "video_mRdamM": {
@@ -62,8 +62,8 @@
             "toggle_text_size": 12,
             "toggle_text_size_mobile": 12,
             "toggle_text_height": 150,
-            "toggle_icon_color": "#FFFFFF",
-            "toggle_text_color": "#FFFFFF"
+            "toggle_icon_color": "#ffffff",
+            "toggle_text_color": "#ffffff"
           }
         }
       },
@@ -87,11 +87,11 @@
         "modal_radius": 0,
         "modal_border_thickness": 0,
         "modal_overlay": 80,
-        "modal_overlay_color": "#FFFFFF",
+        "modal_overlay_color": "#ffffff",
         "modal_border_color": "#000000",
         "close_color": "#000000",
         "overlay_color": "#000000",
-        "background_color": "#FFFFFF",
+        "background_color": "#ffffff",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
@@ -137,27 +137,29 @@
         "image_eewbjN": {
           "type": "image",
           "settings": {
-            "feature_title": "Favourite Effect",
-            "feature_text": "Decay: 18 <br> High Cut <br>:",
-            "feature_image": "{{ article.image }}",
+            "feature_title": "Watch on Youtube",
+            "feature_text": "",
+            "feature_image": "shopify:\/\/shop_images\/youtube.png",
             "feature_url": "",
             "hide_image": false
           }
         },
-        "image_ETDCgE": {
+        "image_qULmFD": {
           "type": "image",
           "settings": {
-            "feature_title": "Price-match guarantee",
-            "feature_text": "Safe money when ordering with us",
+            "feature_title": "Watch on Youtube",
+            "feature_text": "",
+            "feature_image": "shopify:\/\/shop_images\/youtube.png",
             "feature_url": "",
             "hide_image": false
           }
         },
-        "image_KjDCUA": {
+        "image_eLPKMj": {
           "type": "image",
           "settings": {
-            "feature_title": "Hassle-free exchange",
-            "feature_text": "Receive a slip for exchanges",
+            "feature_title": "Watch on Youtube",
+            "feature_text": "",
+            "feature_image": "shopify:\/\/shop_images\/youtube.png",
             "feature_url": "",
             "hide_image": false
           }
@@ -165,8 +167,8 @@
       },
       "block_order": [
         "image_eewbjN",
-        "image_ETDCgE",
-        "image_KjDCUA"
+        "image_qULmFD",
+        "image_eLPKMj"
       ],
       "settings": {
         "feature_row": 3,
