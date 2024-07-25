@@ -73,6 +73,7 @@
         "video_mRdamM"
       ],
       "settings": {
+        "image": "{{ article.image }}",
         "banner_height": "fixed_height",
         "banner_fixed_height": 650,
         "banner_fixed_height_mobile": 500,
