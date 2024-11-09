@@ -104,7 +104,7 @@
           "type": "caption",
           "settings": {
             "caption": "Powerful Acoustic Guitar Multi-Effects Processor. Smaller | Rechargeable | Wireless | Free App | & MORE!",
-            "text_style": "subtitle",
+            "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
         },
@@ -261,7 +261,7 @@
         "heading_cbRxX7": {
           "type": "heading",
           "settings": {
-            "heading": "Who is it for?",
+            "heading": "What is it?",
             "heading_size": "h1"
           }
         },
@@ -302,8 +302,8 @@
       ],
       "settings": {
         "enable-background": true,
-        "enable-background-image": "shopify://shop_images/Untitled_design.jpg",
-        "desktop_content_position": "right",
+        "enable-background-image": "shopify://shop_images/The_greatest_acoustic_guitar_gadget_since_the_capo_2.png",
+        "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "scheme-4",
         "full_width": true,
