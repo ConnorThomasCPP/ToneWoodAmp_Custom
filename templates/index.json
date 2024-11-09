@@ -514,20 +514,6 @@
     "ss_video_with_text_2_xUWC4A": {
       "type": "ss-video-with-text-2",
       "blocks": {
-        "sub_heading_jpK8Lf": {
-          "type": "sub_heading",
-          "settings": {
-            "sub_heading": "<p>ADD A TAGLINE</p>",
-            "sub_heading_custom": false,
-            "sub_heading_font": "josefin_sans_n4",
-            "sub_heading_size": 12,
-            "sub_heading_size_mobile": 12,
-            "sub_heading_height": 130,
-            "sub_heading_mt": 20,
-            "sub_heading_mt_mobile": 20,
-            "sub_heading_color": "#999999"
-          }
-        },
         "heading_GLRT3t": {
           "type": "heading",
           "settings": {
@@ -547,7 +533,7 @@
           "settings": {
             "text": "<p>The <strong>ToneWoodAmp2 </strong>uses patented technology to vibrate the back of virtually any acoustic guitar. This creates an experience that is like-no-other. Natural sounding effects, without using a speaker!</p>",
             "text_custom": false,
-            "text_font": "josefin_sans_n4",
+            "text_font": "poppins_n4",
             "text_size": 14,
             "text_size_mobile": 14,
             "text_height": 170,
@@ -585,7 +571,6 @@
         }
       },
       "block_order": [
-        "sub_heading_jpK8Lf",
         "heading_GLRT3t",
         "text_pYWpcN",
         "button_PifKei"
