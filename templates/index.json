@@ -318,7 +318,7 @@
         "text_4Rejyr"
       ],
       "custom_css": [
-        ".content-container {height: 800px; align-content: center; padding-bottom: 800px;}",
+        ".content-container {height: 800px; align-content: center;}",
         ".rich-text__blocks {max-width: 610px;}"
       ],
       "settings": {
