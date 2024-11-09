@@ -22,27 +22,13 @@
             "subtitle": "<p>Experience the evolution of acoustic guitar effects with the all-new <strong>ToneWoodAmp2</strong>, </p>",
             "button": "Learn More",
             "button_url": "shopify://collections/all",
-            "second_button": "Order Yours",
-            "second_button_url": "shopify://collections/all"
-          }
-        },
-        "slide_UVMU4R": {
-          "type": "slide",
-          "settings": {
-            "autoplay": true,
-            "video_url": "",
-            "title": "<h1>Meet The Perfect Travel Shoes</h1>",
-            "subtitle": "<p>Super Packable. Versatile. And All-Day (And Night) Adventure Ready.</p>",
-            "button": "Shop Now",
-            "button_url": "shopify://collections/all",
-            "second_button": "Shop Now",
+            "second_button": "Pre-Order Yours",
             "second_button_url": "shopify://collections/all"
           }
         }
       },
       "block_order": [
-        "slide_CBLyrQ",
-        "slide_UVMU4R"
+        "slide_CBLyrQ"
       ],
       "settings": {
         "height": 700,
