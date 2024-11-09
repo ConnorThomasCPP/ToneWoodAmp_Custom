@@ -316,7 +316,8 @@
         "text_dka7jR"
       ],
       "custom_css": [
-        ".content-container {height: 700px; align-content: center; background-color: white;}"
+        ".content-container {height: 700px; align-content: center;}",
+        ".rich-text__blocks {max-width: 610px;}"
       ],
       "settings": {
         "enable-background": true,
