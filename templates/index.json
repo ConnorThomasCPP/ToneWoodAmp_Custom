@@ -16,7 +16,8 @@
           "type": "slide",
           "settings": {
             "autoplay": true,
-            "video_url": "https://www.youtube.com/watch?v=sXy1Shrub7A&list=PLNEPUositrbetBIAcexxfR1knJVjvVc0f",
+            "video": "shopify://files/videos/ToneWoodAmp2 - Kickstarter video - Mike Dawes.mp4",
+            "video_url": "",
             "title": "<h1>Experience Acoustic Evolution</h1>",
             "subtitle": "<p>Experience the evolution of acoustic guitar effects with the all-new <strong>ToneWoodAmp2</strong>, </p>",
             "button": "Learn More",
@@ -24,18 +25,32 @@
             "second_button": "Order Yours",
             "second_button_url": "shopify://collections/all"
           }
+        },
+        "slide_UVMU4R": {
+          "type": "slide",
+          "settings": {
+            "autoplay": true,
+            "video_url": "",
+            "title": "<h1>Meet The Perfect Travel Shoes</h1>",
+            "subtitle": "<p>Super Packable. Versatile. And All-Day (And Night) Adventure Ready.</p>",
+            "button": "Shop Now",
+            "button_url": "shopify://collections/all",
+            "second_button": "Shop Now",
+            "second_button_url": "shopify://collections/all"
+          }
         }
       },
       "block_order": [
-        "slide_CBLyrQ"
+        "slide_CBLyrQ",
+        "slide_UVMU4R"
       ],
       "settings": {
         "height": 700,
         "height_mobile": 640,
-        "overlay_opacity": 76,
+        "overlay_opacity": 65,
         "interval": 1,
         "image_object_fit": "fill",
-        "vertical_alignment": "center",
+        "vertical_alignment": "flex-end",
         "horizontal_alignment": "center",
         "title_custom": false,
         "title_font": "josefin_sans_n4",
@@ -82,7 +97,7 @@
         "padding_horizontal": 3,
         "padding_horizontal_mobile": 1.5,
         "margin_top": 0,
-        "margin_bottom": 4,
+        "margin_bottom": 0,
         "margin_horizontal": 0,
         "margin_horizontal_mobile": 0,
         "section_width": 120,
@@ -300,6 +315,9 @@
         "caption_Tib9Yw",
         "text_dka7jR"
       ],
+      "custom_css": [
+        ".content-container {height: 700px; align-content: center; background-color: white;}"
+      ],
       "settings": {
         "enable-background": true,
         "enable-background-image": "shopify://shop_images/The_greatest_acoustic_guitar_gadget_since_the_capo_2.png",
@@ -309,6 +327,121 @@
         "full_width": true,
         "padding_top": 100,
         "padding_bottom": 100
+      }
+    },
+    "ss_video_with_text_2_xUWC4A": {
+      "type": "ss-video-with-text-2",
+      "blocks": {
+        "sub_heading_jpK8Lf": {
+          "type": "sub_heading",
+          "settings": {
+            "sub_heading": "<p>ADD A TAGLINE</p>",
+            "sub_heading_custom": false,
+            "sub_heading_font": "josefin_sans_n4",
+            "sub_heading_size": 12,
+            "sub_heading_size_mobile": 12,
+            "sub_heading_height": 130,
+            "sub_heading_mt": 20,
+            "sub_heading_mt_mobile": 20,
+            "sub_heading_color": "#999999"
+          }
+        },
+        "heading_GLRT3t": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h1>Video with text #2</h1>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 32,
+            "heading_size_mobile": 24,
+            "heading_height": 130,
+            "heading_mt": 26,
+            "heading_mt_mobile": 26,
+            "heading_color": "#000000"
+          }
+        },
+        "text_pYWpcN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with a video to offer customers a glimpse into your brand. Share a narrative, elaborate on a product attribute, or detail a recent promotion.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 14,
+            "text_size_mobile": 14,
+            "text_height": 170,
+            "text_mt": 18,
+            "text_mt_mobile": 18,
+            "text_color": "#000000"
+          }
+        },
+        "button_PifKei": {
+          "type": "button",
+          "settings": {
+            "button": "SHOP NOW",
+            "url": "",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 14,
+            "button_size_mobile": 14,
+            "button_height": 100,
+            "button_padding_horizontal": 24,
+            "button_padding_horizontal_mobile": 24,
+            "button_padding_vertical": 16,
+            "button_padding_vertical_mobile": 16,
+            "button_radius": 0,
+            "button_border_thickness": 1,
+            "button_mt": 30,
+            "button_mt_mobile": 30,
+            "button_style": "outline",
+            "button_color": "#FFFFFF",
+            "button_hover_color": "#000000",
+            "button_bg_color": "#000000",
+            "button_bg_hover_color": "#FFFFFF",
+            "button_border_color": "#000000",
+            "button_border_hover_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "sub_heading_jpK8Lf",
+        "heading_GLRT3t",
+        "text_pYWpcN",
+        "button_PifKei"
+      ],
+      "settings": {
+        "body_layout": "video_content",
+        "body_layout_mobile": "video_content",
+        "content_align": "left",
+        "content_align_mobile": "left",
+        "content_vertical_align": "center",
+        "content_padding_horizontal": 50,
+        "content_padding_horizontal_mobile": 20,
+        "content_padding_vertical": 20,
+        "content_padding_vertical_mobile": 40,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_width": 50,
+        "video_radius": 0,
+        "video_ratio": "landscape",
+        "video_ratio_mobile": "landscape",
+        "video_autoplay": true,
+        "video_controls": true,
+        "video_loop": true,
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
       }
     },
     "rich_text_hPwFU7": {
@@ -737,6 +870,7 @@
     "image_with_text_xH8bnR",
     "ss_feature_1_hQbGqH",
     "rich_text_cUgRbf",
+    "ss_video_with_text_2_xUWC4A",
     "rich_text_hPwFU7",
     "ss_feature_19_qLCqrt",
     "image_with_text_eFYdV3",
