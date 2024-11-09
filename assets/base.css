@@ -7,6 +7,16 @@
   font-display: swap;
 }
 
+<style>
+@import url("//hello.myfonts.net/count/3a26f0");
+@font-face {font-family: 'FilsonProRegular';
+  src: url('{{'3A26F0_0_0.eot' | asset_url}}');
+  src: url('{{'3A26F0_0_0.eot' | asset_url}}?#iefix') format('embedded-opentype'),
+  url('{{'3A26F0_0_0.woff2' | asset_url}}') format('woff2'),
+  url('{{'3A26F0_0_0.woff' | asset_url }}') format('woff'),
+  url('{{'3A26F0_0_0.ttf' | asset_url}}') format('truetype');}
+  </style>
+
 
 :root {
   --alpha-button-background: 1;
