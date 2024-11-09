@@ -291,12 +291,25 @@
           "settings": {
             "text": "<p>With the ToneWoodAmp2, you preserve your instrument’s own unique voice, enhance its performance, and infinitely expand its capabilities for an unparalleled playing and listening experience.<br/><br/><em>\"It is still by far the best creative tool for guitar that I have ever owned...I never play my Taylor without it.\"</em></p>"
           }
+        },
+        "icon_list_9Eeyqd": {
+          "type": "icon_list",
+          "settings": {
+            "title": "",
+            "text_1": "Chorus",
+            "text_2": "Flanger",
+            "text_3": "Vibrato",
+            "text_4": "Reverb",
+            "text_5": "Delay/ Echo",
+            "text_6": "Tremolo"
+          }
         }
       },
       "block_order": [
         "heading_cbRxX7",
         "text_HytekG",
-        "text_4Rejyr"
+        "text_4Rejyr",
+        "icon_list_9Eeyqd"
       ],
       "custom_css": [
         ".content-container {height: 800px; align-content: center;}",
