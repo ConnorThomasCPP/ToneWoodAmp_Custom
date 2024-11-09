@@ -45,6 +45,52 @@
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
               >
+
+              {% when 'icon_list' %}
+                <div class="icon-list">
+                  <div class="icon-list-column">
+                    {% if block.settings.icon_1 %}
+                      <div class="icon-item">
+                        <img src="{{ block.settings.icon_1 | img_url: 'medium' }}" alt="Icon 1">
+                        <p>{{ block.settings.text_1 }}</p>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.icon_2 %}
+                      <div class="icon-item">
+                        <img src="{{ block.settings.icon_2 | img_url: 'medium' }}" alt="Icon 2">
+                        <p>{{ block.settings.text_2 }}</p>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.icon_3 %}
+                      <div class="icon-item">
+                        <img src="{{ block.settings.icon_3 | img_url: 'medium' }}" alt="Icon 3">
+                        <p>{{ block.settings.text_3 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                  <div class="icon-list-column">
+                    {% if block.settings.icon_4 %}
+                      <div class="icon-item">
+                        <img src="{{ block.settings.icon_4 | img_url: 'medium' }}" alt="Icon 4">
+                        <p>{{ block.settings.text_4 }}</p>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.icon_5 %}
+                      <div class="icon-item">
+                        <img src="{{ block.settings.icon_5 | img_url: 'medium' }}" alt="Icon 5">
+                        <p>{{ block.settings.text_5 }}</p>
+                      </div>
+                    {% endif %}
+                    {% if block.settings.icon_6 %}
+                      <div class="icon-item">
+                        <img src="{{ block.settings.icon_6 | img_url: 'medium' }}" alt="Icon 6">
+                        <p>{{ block.settings.text_6 }}</p>
+                      </div>
+                    {% endif %}
+                  </div>
+                </div>
+              {% endcase %}
+              
                 {{ block.settings.heading }}
               </h2>
             {%- when 'caption' -%}
@@ -104,48 +150,6 @@
                     </div>
                 </div>
                 {%- endif -%}
-
-              {% when 'icon_list' %}
-                <div class="icon-list">
-                  <div class="icon-list-column">
-                    {% if block.settings.icon_1 %}
-                      <div class="icon-item">
-                        <img src="{{ block.settings.icon_1 | img_url: 'medium' }}" alt="Icon 1">
-                        <p>{{ block.settings.text_1 }}</p>
-                      </div>
-                    {% endif %}
-                    {% if block.settings.icon_2 %}
-                      <div class="icon-item">
-                        <img src="{{ block.settings.icon_2 | img_url: 'medium' }}" alt="Icon 2">
-                        <p>{{ block.settings.text_2 }}</p>
-                      </div>
-                    {% endif %}
-                    {% if block.settings.icon_3 %}
-                      <div class="icon-item">
-                        <img src="{{ block.settings.icon_3 | img_url: 'medium' }}" alt="Icon 3">
-                        <p>{{ block.settings.text_3 }}</p>
-                      </div>
-                    {% endif %}
-                  </div>
-                  <div class="icon-list-column">
-                    {% if block.settings.icon_4 %}
-                      <div class="icon-item">
-                        <img src="{{ block.settings.icon_4 | img_url: 'medium' }}" alt="Icon 4">
-                        <p>{{ block.settings.text_4 }}</p>
-                      </div>
-                    {% endif %}
-                    {% if block.settings.icon_5 %}
-                      <div class="icon-item">
-                        <img src="{{ block.settings.icon_5 | img_url: 'medium' }}" alt="Icon 5">
-                        <p>{{ block.settings.text_5 }}</p>
-                      </div>
-                    {% endif %}
-                    {% if block.settings.icon_6 %}
-                      <div class="icon-item">
-                        <img src="{{ block.settings.icon_6 | img_url: 'medium' }}" alt="Icon 6">
-                        <p>{{ block.settings.text_6 }}</p>
-                      </div>
-                    {% endif %}
                   </div>
                 </div>
               {% endcase %}
