@@ -104,16 +104,14 @@
                     </div>
                 </div>
                 {%- endif -%}
-              {% when 'icon_list' %}
-                <div class="icon-list">
-                  <p>Debug: Icon List Block Is Rendering</p>
-                  ...
-                </div>
-              {% endcase %}
-            
-              
-              </div>
-          {%- endcase -%}
+
+{% when 'icon_list' %}
+  <div class="icon-list">
+    <p>Debug: Icon List Block Is Rendering</p>
+    ...
+  </div>
+{% endcase %}
+
         {%- endfor -%}
       </div>
     </div>
@@ -396,7 +394,7 @@
           "label": "Text for Icon 6"
         }
       ]
-    }
+    },
     
     {
       "type": "button",
