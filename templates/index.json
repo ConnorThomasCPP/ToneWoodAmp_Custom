@@ -346,7 +346,7 @@
           "type": "feature",
           "settings": {
             "icon": "atc",
-            "custom_icon": "shopify://shop_images/magnet.svg",
+            "custom_icon": "shopify://shop_images/6be3fd6ed6e4fda520f9643d7e05e5e9.png",
             "heading": "<p>Magnetically Attaches</p>",
             "text": "<p>After installing the ToneWoodAmp X-Brace, the ToneWoodAmp magnetically attaches to the back of your guitar.</p>"
           }
@@ -364,7 +364,7 @@
           "type": "feature",
           "settings": {
             "icon": "atc",
-            "custom_icon": "shopify://shop_images/notification.svg",
+            "custom_icon": "shopify://shop_images/11cdec396aabcb4779c22b5a6c206e84.png",
             "heading": "<p>Smartphone Control</p>",
             "text": "<p>The<strong> ALL NEW </strong>ToneWoodAmp app gives you unparalleled control of your acoustic guitar sound</p>"
           }
@@ -386,7 +386,7 @@
           "type": "item",
           "settings": {
             "icon": "atc",
-            "custom_icon": "shopify://shop_images/magnet.svg",
+            "custom_icon": "shopify://shop_images/6be3fd6ed6e4fda520f9643d7e05e5e9.png",
             "text": "Magnetically Attaches",
             "hover_text": "<p>After installing the ToneWoodAmp X-Brace, the ToneWoodAmp magnetically attaches to the back of your guitar.</p>",
             "vertical_position": 42,
@@ -399,7 +399,7 @@
           "type": "item",
           "settings": {
             "icon": "atc",
-            "custom_icon": "shopify://shop_images/notification.svg",
+            "custom_icon": "shopify://shop_images/11cdec396aabcb4779c22b5a6c206e84.png",
             "text": "ToneWoodAmp App",
             "hover_text": "<p>The<strong> ALL NEW </strong>ToneWoodAmp app gives you unparalleled control of your acoustic guitar sound</p>",
             "vertical_position": 100,
@@ -531,7 +531,7 @@
         "heading_GLRT3t": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Video with text #2</h1>",
+            "heading": "<h1>See How It Works</h1>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 32,
@@ -545,7 +545,7 @@
         "text_pYWpcN": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with a video to offer customers a glimpse into your brand. Share a narrative, elaborate on a product attribute, or detail a recent promotion.</p>",
+            "text": "<p>Watch Connor Thomas break down</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 14,
@@ -600,7 +600,7 @@
         "content_padding_horizontal_mobile": 20,
         "content_padding_vertical": 20,
         "content_padding_vertical_mobile": 40,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "https://player.vimeo.com/video/1026513774",
         "video_width": 50,
         "video_radius": 0,
         "video_ratio": "landscape",
@@ -608,7 +608,7 @@
         "video_autoplay": true,
         "video_controls": true,
         "video_loop": true,
-        "background_color": "#ffffff",
+        "background_color": "#181818",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
