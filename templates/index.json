@@ -283,37 +283,20 @@
         "text_HytekG": {
           "type": "text",
           "settings": {
-            "text": "<p>ANY acoustic guitar player! Our customers are beginners and hobbyists, professionals, and virtuosos, guitar nerds (we count ourselves proud members of this tribe), singers, songwriters, producers, and so much more.</p>"
+            "text": "<p>The ToneWoodAmp2 is a device designed to give your acoustic guitar great sounding effects, without an amplifier!<br/><br/>The FREE Smartphone app allows you to craft, edit and save presets containing 4 effects, <strong>simultaneously</strong><br/></p>"
           }
         },
         "text_4Rejyr": {
           "type": "text",
           "settings": {
-            "text": "<p><em>\"My new record was composed entirely with theToneWoodAmp. It’s changed the game, it's aninspiration box. </em><em><strong>Every acoustic player needs this in their life!\"</strong></em></p>"
-          }
-        },
-        "caption_Tib9Yw": {
-          "type": "caption",
-          "settings": {
-            "caption": "—Mike Dawes",
-            "text_style": "subtitle",
-            "text_size": "large"
-          }
-        },
-        "text_dka7jR": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<h5><a href=\"/pages/artists\" title=\"artists\">Learn more about our fabulous artists and customers, and how they use the ToneWoodAmp</a></h5>"
+            "text": "<p>With the ToneWoodAmp2, you preserve your instrument’s own unique voice, enhance its performance, and infinitely expand its capabilities for an unparalleled playing and listening experience.<br/><br/><em>\"It is still by far the best creative tool for guitar that I have ever owned...I never play my Taylor without it.\"</em></p>"
           }
         }
       },
       "block_order": [
         "heading_cbRxX7",
         "text_HytekG",
-        "text_4Rejyr",
-        "caption_Tib9Yw",
-        "text_dka7jR"
+        "text_4Rejyr"
       ],
       "custom_css": [
         ".content-container {height: 700px; align-content: center;}",
@@ -608,7 +591,7 @@
         "video_autoplay": true,
         "video_controls": true,
         "video_loop": true,
-        "background_color": "#181818",
+        "background_color": "#f3f3f3",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
