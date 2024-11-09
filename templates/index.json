@@ -416,7 +416,7 @@
       "settings": {
         "body_gap": 90,
         "body_gap_mobile": 50,
-        "heading": "<h1>How it works</h1>",
+        "heading": "<h2>How it works</h2>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 42,
@@ -503,7 +503,7 @@
         "heading_GLRT3t": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>See How It Works</h1>",
+            "heading": "<h2>See How It Works</h2>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 32,
@@ -733,7 +733,7 @@
         "heading_HqFFiU": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Why You'll Love It</h1>",
+            "heading": "<h2>Why You'll Love It</h2>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 32,
@@ -828,6 +828,121 @@
         "lazy": true
       }
     },
+    "ss_video_with_text_2_geBG8C": {
+      "type": "ss-video-with-text-2",
+      "blocks": {
+        "sub_heading_M3TQHW": {
+          "type": "sub_heading",
+          "settings": {
+            "sub_heading": "<p>BUILT BY MUSICIANS, FOR MUSICIANS</p>",
+            "sub_heading_custom": false,
+            "sub_heading_font": "josefin_sans_n4",
+            "sub_heading_size": 21,
+            "sub_heading_size_mobile": 12,
+            "sub_heading_height": 130,
+            "sub_heading_mt": 20,
+            "sub_heading_mt_mobile": 20,
+            "sub_heading_color": "#00a7ff"
+          }
+        },
+        "heading_ETWKqY": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>ToneWoodAmp2 is Stage Ready</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 32,
+            "heading_size_mobile": 24,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 26,
+            "heading_color": "#000000"
+          }
+        },
+        "text_AbWwzD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The <strong>ToneWoodAmp2 </strong>is also an excellent choice for guitarists seeking to make a big impact on stage while <strong>maintaining a minimal footprint</strong>.  In addition to the four effects, you'll find many advanced pre-amp tools, such as: </p><ul><li>Mixer with Wet/ Dry Blend</li><li>3-Band EQ</li><li>Notch Filter</li><li>Compressor</li><li>Phase Inversion</li><li>Boost \"Switch\"</li></ul>",
+            "text_custom": false,
+            "text_font": "poppins_n4",
+            "text_size": 16,
+            "text_size_mobile": 14,
+            "text_height": 170,
+            "text_mt": 18,
+            "text_mt_mobile": 18,
+            "text_color": "#000000"
+          }
+        },
+        "button_KjaiqR": {
+          "type": "button",
+          "settings": {
+            "button": "Pre Order Yours",
+            "url": "",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 14,
+            "button_size_mobile": 14,
+            "button_height": 100,
+            "button_padding_horizontal": 24,
+            "button_padding_horizontal_mobile": 24,
+            "button_padding_vertical": 16,
+            "button_padding_vertical_mobile": 16,
+            "button_radius": 6,
+            "button_border_thickness": 1,
+            "button_mt": 30,
+            "button_mt_mobile": 30,
+            "button_style": "outline",
+            "button_color": "#ffffff",
+            "button_hover_color": "#000000",
+            "button_bg_color": "#00a7ff",
+            "button_bg_hover_color": "#ffffff",
+            "button_border_color": "#00a7ff",
+            "button_border_hover_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "sub_heading_M3TQHW",
+        "heading_ETWKqY",
+        "text_AbWwzD",
+        "button_KjaiqR"
+      ],
+      "settings": {
+        "body_layout": "content_video",
+        "body_layout_mobile": "video_content",
+        "content_align": "left",
+        "content_align_mobile": "left",
+        "content_vertical_align": "center",
+        "content_padding_horizontal": 50,
+        "content_padding_horizontal_mobile": 20,
+        "content_padding_vertical": 20,
+        "content_padding_vertical_mobile": 40,
+        "video_url": "https://vimeo.com/1026515781",
+        "video_width": 50,
+        "video_radius": 0,
+        "video_ratio": "landscape",
+        "video_ratio_mobile": "landscape",
+        "video_autoplay": true,
+        "video_controls": true,
+        "video_loop": true,
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
     "rich_text_hPwFU7": {
       "type": "rich-text",
       "blocks": {
@@ -860,7 +975,6 @@
         },
         "text_EM6V8U": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<h5><a href=\"/pages/artists\" title=\"artists\">Learn more about our fabulous artists and customers, and how they use the ToneWoodAmp</a></h5>"
           }
@@ -888,66 +1002,6 @@
         "full_width": true,
         "padding_top": 100,
         "padding_bottom": 100
-      }
-    },
-    "image_with_text_eFYdV3": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_mhiGbq": {
-          "type": "heading",
-          "settings": {
-            "heading": "Why you'll love it",
-            "heading_size": "h1"
-          }
-        },
-        "caption_W9gJ7G": {
-          "type": "caption",
-          "settings": {
-            "caption": "WARNING: ADDICTIVE",
-            "text_style": "subtitle",
-            "text_size": "large"
-          }
-        },
-        "text_VH8E7d": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>ToneWoodAmp2</strong> is not just an effects device; <span style=\"text-decoration:underline\">it’s a full-on sensory experience! </span>The ability to create numerous sound textures without an amp, when the sound organically comes from your acoustic guitar body, it is so fulfilling and so addictive.</p><p><strong>ANYWHERE! </strong>At home, in a recording studio or on a mountaintop, the ToneWoodAmp2 transforms your world into one big concert hall with a pro studio… attached to the back of your acoustic guitar.</p><p>More than ever, the <strong>ToneWoodAmp2</strong> can inspire new sounds and songs. It’s easy to travel with (phone-sized), defeats writer’s block, and makes practicing really fun. It’s also great for gigs at coffee shops, house concerts, worship settings, and more. Off-stage or on-stage, it will mesmerize you and your audience.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_HQkEqa": {
-          "type": "button",
-          "settings": {
-            "button_label": "Order Yours",
-            "button_link": "shopify://products/double-bundle-solo-with-b-fmp-b-kng-pickups-extra-x-brace",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_mhiGbq",
-        "caption_W9gJ7G",
-        "text_VH8E7d",
-        "button_HQkEqa"
-      ],
-      "custom_css": [
-        "@media only screen and (min-width: 1024px) {.media > *:not(.zoom):not(.deferred-media__poster-button) {padding-right: 60px; padding-left: 5px; padding-bottom: 60px; }}",
-        ".subtitle {color: red; font-size: 25px;}"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/TWA_GB_DSC1831_pp_V1.1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-4",
-        "color_scheme": "scheme-4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 0
       }
     },
     "featured_blog_dgMNPW": {
@@ -1078,8 +1132,8 @@
     "ss_video_with_text_2_xUWC4A",
     "ss_image_with_text_5_UG4H3z",
     "ss_video_with_text_2_Gqqyjz",
+    "ss_video_with_text_2_geBG8C",
     "rich_text_hPwFU7",
-    "image_with_text_eFYdV3",
     "featured_blog_dgMNPW",
     "collapsible_content_6jpQmd"
   ]
