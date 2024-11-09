@@ -296,17 +296,17 @@
           "type": "icon_list",
           "settings": {
             "title": "",
-            "icon_1": "shopify://shop_images/6be3fd6ed6e4fda520f9643d7e05e5e9.png",
+            "icon_1": "shopify://shop_images/Frame.png",
             "text_1": "Chorus",
-            "icon_2": "shopify://shop_images/11cdec396aabcb4779c22b5a6c206e84.png",
+            "icon_2": "shopify://shop_images/Frame.png",
             "text_2": "Flanger",
-            "icon_3": "shopify://shop_images/6be3fd6ed6e4fda520f9643d7e05e5e9.png",
+            "icon_3": "shopify://shop_images/Frame.png",
             "text_3": "Vibrato",
-            "icon_4": "shopify://shop_images/6be3fd6ed6e4fda520f9643d7e05e5e9.png",
+            "icon_4": "shopify://shop_images/Frame_1.png",
             "text_4": "Reverb",
-            "icon_5": "shopify://shop_images/6be3fd6ed6e4fda520f9643d7e05e5e9.png",
+            "icon_5": "shopify://shop_images/Frame_2.png",
             "text_5": "Delay/ Echo",
-            "icon_6": "shopify://shop_images/6be3fd6ed6e4fda520f9643d7e05e5e9.png",
+            "icon_6": "shopify://shop_images/Frame_3.png",
             "text_6": "Tremolo"
           }
         }
