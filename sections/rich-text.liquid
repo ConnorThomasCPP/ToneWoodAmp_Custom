@@ -40,33 +40,6 @@
               >
                 {{ block.settings.heading }}
               </h2>
-            {%- endcase -%}
-        {%- endfor -%}
-      </div>
-    </div>
-  </div>
-</div>
-
-<style>
-{% if section.settings.enable-background %}
-    .add-background-{{ section.id }} {
-        background-image: url({{ section.settings.enable-background-image | img_url: 'master' | width: 1440, height: 600 }});
-        background-size: cover;
-        background-position: center center;
-        background-attachment: local;
-    }
-
-    @media (max-width: 768px) {
-        .add-background-{{ section.id }} {
-            background-image: url({{ section.settings.enable-mobile-background-image | img_url: 'master' | width: 768, height: 400 }});
-        }
-    }
-{% endif %}
-</style>
-
-              >
-                {{ block.settings.heading }}
-              </h2>
             {%- when 'caption' -%}
               <p
                 class="rich-text__caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
