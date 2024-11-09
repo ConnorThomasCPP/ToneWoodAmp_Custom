@@ -101,28 +101,6 @@
                   >
                     {{- block.settings.button_label_2 | escape -}}
                   </a>
-                  <div class="icon-list">
-                    <div class="icon-column">
-                        <div class="icon-item">
-                            <img src="path-to-your-icon-1.png" alt="Icon 1">
-                            <p>Your text here for Icon 1</p>
-                        </div>
-                        <div class="icon-item">
-                            <img src="path-to-your-icon-2.png" alt="Icon 2">
-                            <p>Your text here for Icon 2</p>
-                        </div>
-                        <!-- Add more icon items as needed -->
-                    </div>
-                    <div class="icon-column">
-                        <div class="icon-item">
-                            <img src="path-to-your-icon-3.png" alt="Icon 3">
-                            <p>Your text here for Icon 3</p>
-                        </div>
-                        <div class="icon-item">
-                            <img src="path-to-your-icon-4.png" alt="Icon 4">
-                            <p>Your text here for Icon 4</p>
-                        </div>
-                        <!-- Add more icon items as needed -->
                     </div>
                 </div>
                 {%- endif -%}
@@ -340,6 +318,78 @@
         }
       ]
     },
+    {
+      "type": "icon_list",
+      "name": "Icon List",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_1",
+          "label": "Icon 1"
+        },
+        {
+          "type": "text",
+          "id": "text_1",
+          "label": "Text for Icon 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_2",
+          "label": "Icon 2"
+        },
+        {
+          "type": "text",
+          "id": "text_2",
+          "label": "Text for Icon 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_3",
+          "label": "Icon 3"
+        },
+        {
+          "type": "text",
+          "id": "text_3",
+          "label": "Text for Icon 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_4",
+          "label": "Icon 4"
+        },
+        {
+          "type": "text",
+          "id": "text_4",
+          "label": "Text for Icon 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_5",
+          "label": "Icon 5"
+        },
+        {
+          "type": "text",
+          "id": "text_5",
+          "label": "Text for Icon 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_6",
+          "label": "Icon 6"
+        },
+        {
+          "type": "text",
+          "id": "text_6",
+          "label": "Text for Icon 6"
+        }
+      ]
+    },
+    
     {
       "type": "button",
       "name": "t:sections.rich-text.blocks.buttons.name",
