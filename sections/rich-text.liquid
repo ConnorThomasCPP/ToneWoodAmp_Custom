@@ -31,14 +31,17 @@
 
 .icon-list {
   display: flex;
-  gap: 0;
-  margin-top: 20px;
+  gap: 0px !important; /* Force the gap to be zero */
 }
 
+
 .icon-list-column {
-  width: 48%; /* Explicitly set width for each column */
-  padding: 0;
-  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Controls gap between items in each column */
+  padding: 0; /* Make sure there’s no extra padding */
+  margin: 0; /* Make sure there’s no extra margin */
 }
 
 .icon-item {
