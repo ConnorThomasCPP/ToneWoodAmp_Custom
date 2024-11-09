@@ -6,21 +6,13 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
   
-{% if section.settings.enable-background %}
-  .add-background-{{ section.id }} {
+  {% if section.settings.enable-background %}
+    .add-background-{{ section.id }}{
       background-image: url({{ section.settings.enable-background-image | img_url: 'master' | width: 1440, height: 600 }});
-      background-size: cover;
-      background-position: center center;
-      background-attachment: local;
-  }
-
-  @media (max-width: 768px) {
-      .add-background-{{ section.id }} {
-          background-image: url({{ section.settings.enable-mobile-background-image | img_url: 'master' | width: 768, height: 400 }});
-      }
-  }
-{% endif %}
-
+        background-size: cover;
+        background-position: center center;
+        background-attachment: local;
+    }
   {% endif %}
 
   @media screen and (min-width: 750px) {
@@ -45,6 +37,33 @@
                   data-cascade
                   style="--animation-order: {{ forloop.index }};"
                 {% endif %}
+              >
+                {{ block.settings.heading }}
+              </h2>
+            {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+{% if section.settings.enable-background %}
+    .add-background-{{ section.id }} {
+        background-image: url({{ section.settings.enable-background-image | img_url: 'master' | width: 1440, height: 600 }});
+        background-size: cover;
+        background-position: center center;
+        background-attachment: local;
+    }
+
+    @media (max-width: 768px) {
+        .add-background-{{ section.id }} {
+            background-image: url({{ section.settings.enable-mobile-background-image | img_url: 'master' | width: 768, height: 400 }});
+        }
+    }
+{% endif %}
+</style>
+
               >
                 {{ block.settings.heading }}
               </h2>
