@@ -133,7 +133,7 @@
         "button_dAJReV": {
           "type": "button",
           "settings": {
-            "button_label": "Order Yours",
+            "button_label": "Pre-Order Yours",
             "button_link": "shopify://products/double-bundle-solo-with-b-fmp-b-kng-pickups-extra-x-brace",
             "button_style_secondary": false
           }
