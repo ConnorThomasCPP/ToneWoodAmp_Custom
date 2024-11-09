@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'Impact';
+  src: url('./Impact.woff2') format('woff2'),
+      url('./Impact.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 :root {
   --alpha-button-background: 1;
   --alpha-button-border: 1;
@@ -1952,6 +1962,10 @@ input[type='checkbox'] {
 .quantity__input:focus {
   background-color: rgb(var(--color-background));
   z-index: 2;
+}
+
+.tonewoodamp2txt{
+  font-family: Impact;
 }
 
 .quantity__button:not(:focus-visible):not(.focused),
