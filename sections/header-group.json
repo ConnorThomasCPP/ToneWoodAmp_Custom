@@ -32,34 +32,9 @@
         "color-transparent": "White",
         "only-homepage": true
       }
-    },
-    "announcement_bar_JjnyFX": {
-      "type": "announcement-bar",
-      "blocks": {
-        "announcement_y6K6zb": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_y6K6zb"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "show_line_separator": true,
-        "show_social": false,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "enable_country_selector": false,
-        "enable_language_selector": false
-      }
     }
   },
   "order": [
-    "header",
-    "announcement_bar_JjnyFX"
+    "header"
   ]
 }

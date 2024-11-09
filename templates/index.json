@@ -105,7 +105,7 @@
           "type": "caption",
           "settings": {
             "caption": "Powerful Acoustic Guitar Multi-Effects Processor. Smaller | Rechargeable | Wireless | Free App | & MORE!",
-            "text_style": "caption-with-letter-spacing",
+            "text_style": "subtitle",
             "text_size": "medium"
           }
         },
