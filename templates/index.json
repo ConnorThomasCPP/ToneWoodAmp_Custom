@@ -283,40 +283,24 @@
         "text_HytekG": {
           "type": "text",
           "settings": {
-            "text": "<p>ANY acoustic guitar player! Our customers are beginners and hobbyists, professionals, and virtuosos, guitar nerds (we count ourselves proud members of this tribe), singers, songwriters, producers, and so much more.</p>"
+            "text": "<p>The ToneWoodAmp2 is a device designed to give your acoustic guitar great sounding effects, without an amplifier!<br/><br/>The FREE Smartphone app allows you to craft, edit and save presets containing 4 effects, <strong>simultaneously</strong><br/></p>"
           }
         },
         "text_4Rejyr": {
           "type": "text",
           "settings": {
-            "text": "<p><em>\"My new record was composed entirely with theToneWoodAmp. It’s changed the game, it's aninspiration box. </em><em><strong>Every acoustic player needs this in their life!\"</strong></em></p>"
-          }
-        },
-        "caption_Tib9Yw": {
-          "type": "caption",
-          "settings": {
-            "caption": "—Mike Dawes",
-            "text_style": "subtitle",
-            "text_size": "large"
-          }
-        },
-        "text_dka7jR": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<h5><a href=\"/pages/artists\" title=\"artists\">Learn more about our fabulous artists and customers, and how they use the ToneWoodAmp</a></h5>"
+            "text": "<p>With the ToneWoodAmp2, you preserve your instrument’s own unique voice, enhance its performance, and infinitely expand its capabilities for an unparalleled playing and listening experience.<br/><br/><em>\"It is still by far the best creative tool for guitar that I have ever owned...I never play my Taylor without it.\"</em></p>"
           }
         }
       },
       "block_order": [
         "heading_cbRxX7",
         "text_HytekG",
-        "text_4Rejyr",
-        "caption_Tib9Yw",
-        "text_dka7jR"
+        "text_4Rejyr"
       ],
       "custom_css": [
-        ".content-container {height: 700px; align-content: center; background-color: white;}"
+        ".content-container {height: 700px; align-content: center;}",
+        ".rich-text__blocks {max-width: 610px;}"
       ],
       "settings": {
         "enable-background": true,
@@ -345,7 +329,7 @@
           "type": "feature",
           "settings": {
             "icon": "atc",
-            "custom_icon": "shopify://shop_images/magnet.svg",
+            "custom_icon": "shopify://shop_images/6be3fd6ed6e4fda520f9643d7e05e5e9.png",
             "heading": "<p>Magnetically Attaches</p>",
             "text": "<p>After installing the ToneWoodAmp X-Brace, the ToneWoodAmp magnetically attaches to the back of your guitar.</p>"
           }
@@ -363,7 +347,7 @@
           "type": "feature",
           "settings": {
             "icon": "atc",
-            "custom_icon": "shopify://shop_images/notification.svg",
+            "custom_icon": "shopify://shop_images/11cdec396aabcb4779c22b5a6c206e84.png",
             "heading": "<p>Smartphone Control</p>",
             "text": "<p>The<strong> ALL NEW </strong>ToneWoodAmp app gives you unparalleled control of your acoustic guitar sound</p>"
           }
@@ -385,7 +369,7 @@
           "type": "item",
           "settings": {
             "icon": "atc",
-            "custom_icon": "shopify://shop_images/magnet.svg",
+            "custom_icon": "shopify://shop_images/6be3fd6ed6e4fda520f9643d7e05e5e9.png",
             "text": "Magnetically Attaches",
             "hover_text": "<p>After installing the ToneWoodAmp X-Brace, the ToneWoodAmp magnetically attaches to the back of your guitar.</p>",
             "vertical_position": 42,
@@ -398,7 +382,7 @@
           "type": "item",
           "settings": {
             "icon": "atc",
-            "custom_icon": "shopify://shop_images/notification.svg",
+            "custom_icon": "shopify://shop_images/11cdec396aabcb4779c22b5a6c206e84.png",
             "text": "ToneWoodAmp App",
             "hover_text": "<p>The<strong> ALL NEW </strong>ToneWoodAmp app gives you unparalleled control of your acoustic guitar sound</p>",
             "vertical_position": 100,
@@ -530,7 +514,7 @@
         "heading_GLRT3t": {
           "type": "heading",
           "settings": {
-            "heading": "<h1>Video with text #2</h1>",
+            "heading": "<h1>See How It Works</h1>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 32,
@@ -544,7 +528,7 @@
         "text_pYWpcN": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with a video to offer customers a glimpse into your brand. Share a narrative, elaborate on a product attribute, or detail a recent promotion.</p>",
+            "text": "<p>Watch Connor Thomas break down</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 14,
@@ -599,7 +583,7 @@
         "content_padding_horizontal_mobile": 20,
         "content_padding_vertical": 20,
         "content_padding_vertical_mobile": 40,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "https://player.vimeo.com/video/1026513774",
         "video_width": 50,
         "video_radius": 0,
         "video_ratio": "landscape",
@@ -607,7 +591,7 @@
         "video_autoplay": true,
         "video_controls": true,
         "video_loop": true,
-        "background_color": "#ffffff",
+        "background_color": "#f3f3f3",
         "background_gradient": "",
         "border_color": "#000000",
         "margin_top": 0,
