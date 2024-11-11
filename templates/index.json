@@ -735,7 +735,7 @@
         "sub_heading_jUc9Cq": {
           "type": "sub_heading",
           "settings": {
-            "sub_heading": "<p>WARNING: ADDICTIVE</p>",
+            "sub_heading": "<p><strong>WARNING: ADDICTIVE</strong></p>",
             "sub_heading_custom": false,
             "sub_heading_font": "josefin_sans_n4",
             "sub_heading_size": 21,
