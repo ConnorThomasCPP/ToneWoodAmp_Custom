@@ -132,7 +132,8 @@
         "button_dAJReV"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 1024px) {.media > *:not(.zoom):not(.deferred-media__poster-button) {padding-right: 60px; padding-left: 5px; padding-bottom: 60px; }}"
+        "@media only screen and (min-width: 1024px) {.media > *:not(.zoom):not(.deferred-media__poster-button) {padding-right: 60px; padding-left: 5px; padding-bottom: 60px; }}",
+        ".image-with-text__text--caption {color: red;}"
       ],
       "settings": {
         "image": "shopify://shop_images/TWA_SOLO_FOR_PRODUCT.png",
