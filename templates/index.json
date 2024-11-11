@@ -16,8 +16,8 @@
           "type": "slide",
           "settings": {
             "autoplay": true,
-            "video": "shopify://files/videos/ToneWoodAmp2 - Kickstarter video - Mike Dawes.mp4",
             "video_url": "",
+            "image": "shopify://shop_images/The_greatest_acoustic_guitar_gadget_since_the_capo_2.png",
             "title": "<h1>Revolutionizing the Acoustic Guitar</h1>",
             "subtitle": "<p>Experience the evolution of acoustic guitar effects with the all-new <strong>ToneWoodAmp2</strong>, </p>",
             "button": "Learn More (Will Open Video Modal Soon)",
@@ -847,20 +847,6 @@
     "ss_video_with_text_2_geBG8C": {
       "type": "ss-video-with-text-2",
       "blocks": {
-        "sub_heading_M3TQHW": {
-          "type": "sub_heading",
-          "settings": {
-            "sub_heading": "<p>BUILT BY MUSICIANS, FOR MUSICIANS</p>",
-            "sub_heading_custom": false,
-            "sub_heading_font": "josefin_sans_n4",
-            "sub_heading_size": 21,
-            "sub_heading_size_mobile": 12,
-            "sub_heading_height": 130,
-            "sub_heading_mt": 20,
-            "sub_heading_mt_mobile": 20,
-            "sub_heading_color": "#00a7ff"
-          }
-        },
         "heading_ETWKqY": {
           "type": "heading",
           "settings": {
@@ -873,6 +859,20 @@
             "heading_mt": 0,
             "heading_mt_mobile": 26,
             "heading_color": "#000000"
+          }
+        },
+        "sub_heading_M3TQHW": {
+          "type": "sub_heading",
+          "settings": {
+            "sub_heading": "<p>BUILT BY MUSICIANS, FOR MUSICIANS</p>",
+            "sub_heading_custom": false,
+            "sub_heading_font": "josefin_sans_n4",
+            "sub_heading_size": 21,
+            "sub_heading_size_mobile": 12,
+            "sub_heading_height": 130,
+            "sub_heading_mt": 20,
+            "sub_heading_mt_mobile": 20,
+            "sub_heading_color": "#00a7ff"
           }
         },
         "text_AbWwzD": {
@@ -918,8 +918,8 @@
         }
       },
       "block_order": [
-        "sub_heading_M3TQHW",
         "heading_ETWKqY",
+        "sub_heading_M3TQHW",
         "text_AbWwzD",
         "button_KjaiqR"
       ],
