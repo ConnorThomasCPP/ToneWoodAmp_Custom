@@ -32,9 +32,37 @@
         "color-transparent": "White",
         "only-homepage": true
       }
+    },
+    "announcement_bar_ebFTTD": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_WqWkMW": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_WqWkMW"
+      ],
+      "custom_css": [
+        ".announcement-bar{margin-bottm: 10px;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
-    "header"
+    "header",
+    "announcement_bar_ebFTTD"
   ]
 }
