@@ -33,7 +33,7 @@
       "settings": {
         "height": 700,
         "height_mobile": 640,
-        "overlay_opacity": 65,
+        "overlay_opacity": 0,
         "interval": 1,
         "image_object_fit": "fill",
         "vertical_alignment": "center",
