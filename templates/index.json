@@ -416,6 +416,10 @@
         "item_EGUf9R",
         "feature_KCKndV"
       ],
+      "custom_css": [
+        ".feature-item-heading-template--23091005096249__ss_feature_19_qLCqrt {color: #03aaf9; font-size: 22px; text-transform: uppercase; line-height: 25px;}",
+        ".p {color: black;}"
+      ],
       "settings": {
         "body_gap": 90,
         "body_gap_mobile": 50,
