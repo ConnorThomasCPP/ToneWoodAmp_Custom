@@ -316,7 +316,7 @@
       "custom_css": [
         ".content-container {height: 900px; align-content: center;}",
         ".rich-text__blocks {max-width: 610px;}",
-        ".image-with-text__text--caption {color: #03aaf9; font-size: 22px; text-transform: uppercase; line-height: 25px;}"
+        ".rich-text__caption {color: #03aaf9; font-size: 22px; text-transform: uppercase; line-height: 25px;}"
       ],
       "settings": {
         "enable-background": true,
@@ -337,7 +337,7 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "heading": "<p><strong>Acoustic effects - straight out of the sound hole! </strong></p>",
+            "heading": "<p><strong>Turning your guitar into a speaker</strong></p>",
             "text": "<p>The new <strong>ToneWoodAmp2</strong> uses patented technology to vibrate the back of virtually any acoustic guitar, creating the sound effects you know and love — no need for an amp!</p>"
           }
         },
