@@ -592,7 +592,7 @@
         "video_radius": 0,
         "video_ratio": "landscape",
         "video_ratio_mobile": "landscape",
-        "video_autoplay": true,
+        "video_autoplay": false,
         "video_controls": true,
         "video_loop": true,
         "background_color": "#f3f3f3",
