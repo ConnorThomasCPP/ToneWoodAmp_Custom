@@ -375,6 +375,7 @@
 
 
 <script src="https://player.vimeo.com/api/player.js"></script>
+<script src="https://player.vimeo.com/api/player.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const modal = document.getElementById('videoModal');
@@ -388,7 +389,8 @@
     let player = null;
 
     // Open modal
-    trigger.addEventListener('click', function () {
+    trigger.addEventListener('click', function (event) {
+      event.stopPropagation(); // Prevent bubbling in case trigger is inside modal
       modal.style.display = 'flex';
 
       // Set the iframe's src dynamically
@@ -412,7 +414,7 @@
       }
     });
 
-    // Prevent modal from closing when clicking inside the content
+    // Prevent modal from closing when clicking inside content
     modalContent.addEventListener('click', function (event) {
       event.stopPropagation();
     });
@@ -426,6 +428,7 @@
     }
   });
 </script>
+
 
 
 
