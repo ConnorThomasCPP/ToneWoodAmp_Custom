@@ -337,7 +337,7 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "heading": "<p><strong>TURNING YOUR GUITAR INTO A SPEAKER</strong></p>",
+            "heading": "<p><strong>TURNING YOUR GUITAR INTO A SPEAKER!</strong></p>",
             "text": "<p>The new <strong>ToneWoodAmp2</strong> uses patented technology to vibrate the back of virtually any acoustic guitar, creating the sound effects you know and love — no need for an amp!</p>"
           }
         },
@@ -486,7 +486,7 @@
         "hover_item_hover_text_size": 16,
         "hover_item_hover_text_size_mobile": 16,
         "hover_item_hover_text_height": 150,
-        "item_heading_color": "#000000",
+        "item_heading_color": "#00a7ff",
         "item_text_color": "#000000",
         "item_bg_color": "#ffffff",
         "item_border_color": "#000000",
@@ -864,7 +864,7 @@
         "sub_heading_M3TQHW": {
           "type": "sub_heading",
           "settings": {
-            "sub_heading": "<p>BUILT BY MUSICIANS, FOR MUSICIANS</p>",
+            "sub_heading": "<h2>BUILT BY MUSICIANS, FOR MUSICIANS</h2>",
             "sub_heading_custom": false,
             "sub_heading_font": "josefin_sans_n4",
             "sub_heading_size": 21,
