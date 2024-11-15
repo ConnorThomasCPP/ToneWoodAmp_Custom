@@ -355,5 +355,19 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <div id="videoModal" class="video-modal">
+  <div class="video-modal-content">
+    <button id="closeModal" class="video-modal-close">&times;</button>
+    <iframe 
+      id="vimeoPlayer" 
+      src="https://player.vimeo.com/video/YOUR_VIDEO_ID?autoplay=1&muted=0&loop=0&title=0&byline=0&portrait=0" 
+      frameborder="0" 
+      allow="autoplay; fullscreen" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
   </body>
 </html>
