@@ -374,6 +374,7 @@
 
 
 
+<script src="https://player.vimeo.com/api/player.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
     const modal = document.getElementById('videoModal');
@@ -381,12 +382,22 @@
     const trigger = document.getElementById('videoModalTrigger');
     const close = document.getElementById('closeModal');
     const vimeoPlayer = document.getElementById('vimeoPlayer');
-    const baseVideoURL = "https://player.vimeo.com/video/YOUR_VIDEO_ID";
+
+    const videoURL = "https://player.vimeo.com/video/1026515781";
+
+    let player = null;
 
     // Open modal
     trigger.addEventListener('click', function () {
       modal.style.display = 'flex';
-      vimeoPlayer.src = baseVideoURL + "?autoplay=1&muted=0&loop=0&title=0&byline=0&portrait=0";
+
+      // Set the iframe's src dynamically
+      vimeoPlayer.src = videoURL + "?autoplay=1&muted=0";
+
+      // Initialize Vimeo Player
+      if (!player) {
+        player = new Vimeo.Player(vimeoPlayer);
+      }
     });
 
     // Close modal
@@ -401,18 +412,21 @@
       }
     });
 
-    // Prevent modal from closing when clicking inside content
+    // Prevent modal from closing when clicking inside the content
     modalContent.addEventListener('click', function (event) {
       event.stopPropagation();
     });
 
-    // Function to close modal and reset video
+    // Function to close modal and stop the video
     function closeModal() {
       modal.style.display = 'none';
-      vimeoPlayer.src = ""; // Remove src to stop the video
+      if (player) {
+        player.pause(); // Use Vimeo Player API to pause the video
+      }
     }
   });
 </script>
+
 
 
   </body>
