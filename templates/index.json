@@ -1020,6 +1020,62 @@
         "padding_bottom": 100
       }
     },
+    "multicolumn_HBwKcY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AbPmLX": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/17bd9c89beb749480f8173af40a561a2_original.png",
+            "title": "Recharable via USB-C",
+            "text": "<p>Get ready for endless jam sessions. A built-in rechargeable battery now powers the <strong>ToneWoodAmp2</strong>! Say goodbye to the hassle and expense of single-use batteries and enjoy more than 10 hours of uninterrupted playing time on a single charge</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JhxRhz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/ezgif-1-1a37c1e2be.gif",
+            "title": "Column",
+            "text": "<p><strong>Tonewoodamp2 is now adjustable for any guitar back! </strong>The new innovative <strong>\"LifKit\"</strong> system (patent pending) allows the <strong>ToneWoodAmp2 </strong>to fit perfectly on virtually any curved back guitar. (Ovation-style LiftKit will come later 2025)</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KV4xnz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Capture2.jpg",
+            "title": "Compact & Lighter",
+            "text": "<p><strong>ToneWoodAmp2 </strong>has been redesigned with portability in mind, featuring a lighter and more compact design. <br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AbPmLX",
+        "column_JhxRhz",
+        "column_KV4xnz"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_blog_dgMNPW": {
       "type": "featured-blog",
       "settings": {
@@ -1150,6 +1206,7 @@
     "ss_video_with_text_2_Gqqyjz",
     "ss_video_with_text_2_geBG8C",
     "rich_text_hPwFU7",
+    "multicolumn_HBwKcY",
     "featured_blog_dgMNPW",
     "collapsible_content_6jpQmd"
   ]
