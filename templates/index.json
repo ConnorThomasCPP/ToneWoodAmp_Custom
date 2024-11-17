@@ -16,10 +16,10 @@
           "type": "slide",
           "settings": {
             "autoplay": true,
-            "video": "shopify://files/videos/Video Background Test v3.mov",
+            "video": "shopify://files/videos/Video Background Test v4.mov",
             "video_url": "",
-            "title": "<h1>Revolutionizing the Acoustic Guitar</h1>",
-            "subtitle": "<p>Acoustic Effects Unplugged just got more powerful: rechargeable, up to 4 effects at a time, free companion app, and much more.</p>",
+            "title": "<h1>The All New TONEWOODAMP2</h1>",
+            "subtitle": "<h2><strong>Acoustic Effects, No Amp Required</strong><br/></h2><h2><br/></h2><h6><strong>Magnetic Install </strong>•<strong> 4 Effects at Once </strong>• Rechargeable<strong> </strong></h6>",
             "button": "Learn More",
             "button_url": "",
             "second_button": "Pre-Order Yours",
@@ -94,8 +94,8 @@
     "custom_announcement_bar_iYAGjj": {
       "type": "custom-announcement-bar",
       "settings": {
-        "background_image": "shopify://shop_images/ffab470c-e5a6-45b4-b8c2-f6e568623063.jpg",
-        "announcement_text": "Early Black Friday Sale!  | Pre-Order your ToneWoodAmp2 Now | Estimated Shipping December"
+        "background_image": "shopify://shop_images/announcementbar_holidaypattern.jpg",
+        "announcement_text": "Pre-Order the NEW ToneWoodAmp2 and save $40 - First Come, First Served!"
       }
     },
     "image_with_text_xH8bnR": {
