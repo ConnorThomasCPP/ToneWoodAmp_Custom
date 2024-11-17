@@ -19,7 +19,7 @@
             "video": "shopify://files/videos/Copy of TONEWOODAMP2 (1).mp4",
             "video_url": "",
             "title": "<h1>Revolutionizing the Acoustic Guitar</h1>",
-            "subtitle": "<p>The acoustic experience you’ve been waiting for. Acoustic Effects Unplugged just got more powerful: rechargeable, up to 4 effects at a time, fre e companion app, and much more.</p>",
+            "subtitle": "<p>The acoustic experience you’ve been waiting for. Acoustic Effects Unplugged just got more powerful: rechargeable, up to 4 effects at a time, free companion app, and much more.</p>",
             "button": "Learn More",
             "button_url": "",
             "second_button": "Pre-Order Yours",
@@ -89,6 +89,13 @@
         "section_width": 120,
         "section_radius": 0,
         "lazy": false
+      }
+    },
+    "custom_announcement_bar_iYAGjj": {
+      "type": "custom-announcement-bar",
+      "settings": {
+        "background_image": "shopify://shop_images/announcementbar_holidaypattern.jpg",
+        "announcement_text": "Early Black Friday Sale!"
       }
     },
     "image_with_text_xH8bnR": {
@@ -1197,6 +1204,7 @@
   },
   "order": [
     "ss_video_banner_DnJ7gk",
+    "custom_announcement_bar_iYAGjj",
     "image_with_text_xH8bnR",
     "ss_feature_1_hQbGqH",
     "rich_text_cUgRbf",
