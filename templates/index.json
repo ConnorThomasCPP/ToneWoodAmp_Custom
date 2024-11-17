@@ -915,7 +915,7 @@
           "type": "button",
           "settings": {
             "button": "Pre-Order Yours",
-            "url": "",
+            "url": "shopify://products/tonewoodamp2",
             "button_custom": false,
             "button_font": "josefin_sans_n4",
             "button_size": 14,
