@@ -540,15 +540,15 @@
         "sub_heading_iijCcA": {
           "type": "sub_heading",
           "settings": {
-            "sub_heading": "<p>ADD A TAGLINE</p>",
+            "sub_heading": "<h3>THE FIRST AND ORIGINAL</h3>",
             "sub_heading_custom": false,
             "sub_heading_font": "josefin_sans_n4",
-            "sub_heading_size": 12,
+            "sub_heading_size": 21,
             "sub_heading_size_mobile": 12,
             "sub_heading_height": 130,
             "sub_heading_mt": 20,
             "sub_heading_mt_mobile": 20,
-            "sub_heading_color": "#999999"
+            "sub_heading_color": "#00a7ff"
           }
         },
         "text_pYWpcN": {
