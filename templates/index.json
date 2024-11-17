@@ -278,9 +278,9 @@
         "caption_CBFNyM": {
           "type": "caption",
           "settings": {
-            "caption": "Acoustic effects - straight out of the sound hole!",
+            "caption": "WARNING : ADDICTIVE",
             "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
+            "text_size": "large"
           }
         },
         "text_HytekG": {
@@ -555,7 +555,7 @@
           "type": "button",
           "settings": {
             "button": "Pre-Order Yours",
-            "url": "",
+            "url": "shopify://products/tonewoodamp2",
             "button_custom": false,
             "button_font": "josefin_sans_n4",
             "button_size": 14,
@@ -630,7 +630,7 @@
             "sub_heading": "<h3><strong>MIX UP TO 4 EFFECTS AT ONCE!</strong></h3>",
             "text": "<p>While with the first ToneWoodAmp you could use only one effect at a time, with the new <strong>ToneWoodAmp2 </strong>you can blend and mix up to<strong> four effects simultaneously!</strong><br/><br/>In addition, it offers different effect routing options, such as <em><strong>Series </strong></em>and <em><strong>Parallel</strong></em>, providing extra creative ways for exploring new sounds and textures. <br/><br/>This versatility opens up a range of new sonic possibilities, significantly broadening your creative horizons.</p>",
             "button": "Pre-Order Yours",
-            "button_url": "shopify://collections",
+            "button_url": "shopify://products/tonewoodamp2",
             "image": "shopify://shop_images/App_Screenshot3_2.jpg",
             "button_color": "#ffffff",
             "button_hover_color": "#ffffff",
