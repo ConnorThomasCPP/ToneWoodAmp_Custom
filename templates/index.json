@@ -537,6 +537,20 @@
             "heading_color": "#000000"
           }
         },
+        "sub_heading_iijCcA": {
+          "type": "sub_heading",
+          "settings": {
+            "sub_heading": "<p>ADD A TAGLINE</p>",
+            "sub_heading_custom": false,
+            "sub_heading_font": "josefin_sans_n4",
+            "sub_heading_size": 12,
+            "sub_heading_size_mobile": 12,
+            "sub_heading_height": 130,
+            "sub_heading_mt": 20,
+            "sub_heading_mt_mobile": 20,
+            "sub_heading_color": "#999999"
+          }
+        },
         "text_pYWpcN": {
           "type": "text",
           "settings": {
@@ -581,6 +595,7 @@
       },
       "block_order": [
         "heading_GLRT3t",
+        "sub_heading_iijCcA",
         "text_pYWpcN",
         "button_PifKei"
       ],
@@ -756,7 +771,7 @@
         "sub_heading_jUc9Cq": {
           "type": "sub_heading",
           "settings": {
-            "sub_heading": "<p><strong>WARNING: ADDICTIVE</strong></p>",
+            "sub_heading": "<h2><strong>WARNING: ADDICTIVE</strong></h2>",
             "sub_heading_custom": false,
             "sub_heading_font": "josefin_sans_n4",
             "sub_heading_size": 21,
