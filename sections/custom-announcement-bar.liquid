@@ -1,6 +1,58 @@
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": "Custom Announcement Bar",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": "Announcement Text",
+      "default": "This is a custom announcement!"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Custom Announcement Bar",
+      "category": "Custom"
+    }
+  ]
+}
 {% endschema %}
+
+
+
+<!-- announcement-bar.liquid -->
+<section id="announcement-bar" class="announcement-bar">
+  <div class="announcement-bar-content" style="background-image: url({{ section.settings.background_image | image_url }});">
+    <div class="announcement-bar-text">
+      <p>{{ section.settings.announcement_text }}</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  #announcement-bar {
+    width: 100%;
+    background-size: cover; /* Ensures the image tiles properly */
+    background-repeat: repeat;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+  }
+
+  .announcement-bar-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .announcement-bar-text p {
+    margin: 0;
+    font-size: 16px;
+  }
+</style>
