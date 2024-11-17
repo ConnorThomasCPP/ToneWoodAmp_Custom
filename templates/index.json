@@ -1100,6 +1100,7 @@
     },
     "featured_blog_dgMNPW": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Recent Stories",
         "heading_size": "h1",
