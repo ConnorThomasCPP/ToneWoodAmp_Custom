@@ -152,7 +152,7 @@
     "featured_blog_xmaYqC": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Blog posts",
+        "heading": "Magazine and Written Reviews",
         "heading_size": "h1",
         "blog": "reviews-by-magazines",
         "post_limit": 3,
