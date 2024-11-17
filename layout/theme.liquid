@@ -378,22 +378,21 @@
     const modal = document.getElementById('videoModal');
     const modalContent = document.querySelector('.video-modal-content');
     const trigger = document.getElementById('videoModalTrigger');
-    const close = document.getElementById('closeModal');
     const vimeoPlayer = document.getElementById('vimeoPlayer');
+    const close = document.getElementById('closeModal');
 
     const videoURL = "https://player.vimeo.com/video/1026515781";
-
     let player = null;
 
-    // Open modal
+    // Prevent default action of links in the trigger div
     trigger.addEventListener('click', function (event) {
-      event.stopPropagation(); // Prevent bubbling in case trigger is inside modal
+      event.preventDefault(); // Prevent the default navigation behavior
       modal.style.display = 'flex';
 
       // Set the iframe's src dynamically
       vimeoPlayer.src = videoURL + "?autoplay=1&muted=0";
 
-      // Initialize Vimeo Player
+      // Initialize Vimeo Player if it doesn't exist
       if (!player) {
         player = new Vimeo.Player(vimeoPlayer);
       }
@@ -416,15 +415,16 @@
       event.stopPropagation();
     });
 
-    // Function to close modal and stop the video
+    // Function to close modal and reset video
     function closeModal() {
       modal.style.display = 'none';
       if (player) {
-        player.pause(); // Use Vimeo Player API to pause the video
+        player.pause(); // Pause the video using Vimeo Player API
       }
     }
   });
 </script>
+
 
 
 
