@@ -23,52 +23,28 @@
 }
 {% endschema %}
 
-
-
-<!-- announcement-bar.liquid -->
-<section id="announcement-bar" class="announcement-bar">
-  <div class="announcement-bar-content" style="background-image: url({{ section.settings.background_image | image_url }});">
-    <div class="announcement-bar-text">
+<!-- custom-announcement-bar.liquid -->
+<section id="custom-announcement-bar" class="custom-announcement-bar">
+  <div 
+    class="custom-announcement-bar-content" 
+    style="background-image: url({{ section.settings.background_image | image_url }}); background-repeat: repeat-x;">
+    <div class="custom-announcement-bar-text">
       <p>{{ section.settings.announcement_text }}</p>
     </div>
   </div>
 </section>
 
-<style>
-  #announcement-bar {
-    width: 100%;
-    background-size: cover; /* Ensures the image tiles properly */
-    background-repeat: repeat;
-    text-align: center;
-    padding: 10px 0;
-    color: #fff;
-  }
-
-  .announcement-bar-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-
-  .announcement-bar-text p {
-    margin: 0;
-    font-size: 16px;
-  }
-</style>
-
 <!-- CSS included inline -->
 <style>
-  .custom-announcement-bar {
+  #custom-announcement-bar {
     width: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
     color: #fff;
   }
 
   .custom-announcement-bar-content {
     width: 100%;
-    background-repeat: repeat-x; /* Ensures the image repeats only on the X-axis */
     background-position: top; /* Aligns the image at the top */
     background-size: auto; /* Keeps the original size of the image */
     text-align: center;
