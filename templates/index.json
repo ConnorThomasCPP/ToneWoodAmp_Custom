@@ -434,7 +434,8 @@
         "feature_KCKndV"
       ],
       "custom_css": [
-        ".p {color: black;}"
+        ".p {color: black;}",
+        ".h3{color: 00A7FF;}"
       ],
       "settings": {
         "body_gap": 90,
