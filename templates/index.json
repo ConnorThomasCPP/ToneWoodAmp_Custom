@@ -46,7 +46,7 @@
         "subtitle_custom": false,
         "subtitle_font": "josefin_sans_n4",
         "subtitle_size": 16,
-        "subtitle_size_mobile": 16,
+        "subtitle_size_mobile": 18,
         "subtitle_height": 130,
         "subtitle_mt": 20,
         "buttons_mt": 20,
@@ -60,7 +60,7 @@
         "button_padding_vertical_mobile": 16,
         "button_padding_horizontal": 32,
         "button_padding_horizontal_mobile": 32,
-        "button_radius": 0,
+        "button_radius": 72,
         "button_border_thickness": 0,
         "button_color": "#000000",
         "button_hover_color": "#ffffff",
@@ -137,7 +137,7 @@
         ".p {color: black;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/TWA_SOLO_FOR_PRODUCT.png",
+        "image": "shopify://shop_images/Untitled_design_7.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
