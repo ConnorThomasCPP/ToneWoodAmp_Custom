@@ -344,7 +344,7 @@
           "type": "feature",
           "settings": {
             "icon": "none",
-            "heading": "<p><strong>TURNING YOUR GUITAR INTO A SPEAKER!</strong></p>",
+            "heading": "<h3><strong>TURNING YOUR GUITAR INTO A SPEAKER!</strong></h3>",
             "text": "<p>The new <strong>ToneWoodAmp2</strong> uses patented technology to vibrate the back of virtually any acoustic guitar, creating the sound effects you know and love — no need for an amp!</p>"
           }
         },
